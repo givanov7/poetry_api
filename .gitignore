@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# VSCode config files
+.vscode/
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs and test outputs
+*.log
+logs/
+allure-results/
+allure-report/
+
+# Unit test cache
+.cache/
+.pytest_cache/
+
+# Environment files
+.env
+*.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Mac OS
+.DS_Store
