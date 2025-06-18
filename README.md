@@ -63,3 +63,9 @@ A Python project for testing poetry-related API endpoints for https://poetrydb.o
 | TC-01        | test_get_all_poems_titles.py      | Test getting all poems titles from the endpoint                | GET /title         | - a non-empty list of poems' titles is returned - each item in the returned list is a string                                                                                                                                            |
 | TC-02        | test_get_authors_starting_with.py | Test getting all or filtered by the first letter authors' list | GET /author        | - a non-empty list of authors is returned - if filtering is applied, all authors' names should begin with the specified character                                                                                                       |
 | TC-03        | test_get_poem_by_title.py         | Test getting poem by its title                                 | GET /title/{title} | - a non-empty list of poem's objects is returned - the poem's title matches the expected title (ignoring leading/trailing whitespace) - The poem's author matches the expected author - The poem's linecount matches the expected value |
+
+7. **Video**
+
+https://github.com/user-attachments/assets/d5831264-de1b-499b-9d48-1ed75e3c924b
+
+
